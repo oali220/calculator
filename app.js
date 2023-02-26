@@ -39,6 +39,16 @@ equal.addEventListener('click', function() {
     previous.textContent = previousVal + ' ' + operator;
 })
 
+decimal.addEventListener('click', function() {
+    addDecimal();
+})
+
+function addDecimal() {
+    if (!currentVal.includes('.')) {
+        currentVal += '.';
+    }
+}
+
 function getValue(num) {
     if(currentVal.length < 6) {
     currentVal += num;
@@ -77,3 +87,4 @@ function calculate(firstVal, secondVal, oper) {
     currentVal = result;
     operator = '';
 }
+
