@@ -1,3 +1,4 @@
+
 body {
     display: flex;
     flex-direction: column;
@@ -45,6 +46,15 @@ body {
     background-color: lightcoral;
 }
 
+.btn.equal{
+    border: 1px solid lightcoral;
+    border-radius: 24px;
+}
+
+.btn.equal:hover{
+    background-color: lightcoral;
+}
+
 .btn.decimal{
     border: 1px solid lightseagreen;
     border-radius: 24px;
@@ -66,20 +76,23 @@ body {
 .screen {
     height: 70px;
     border: 1px solid plum;
-    border-radius: 24px;
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
     justify-content: right;
     padding-right: 6px;
+    color: white;
 }
 
-.top {
+.previous {
+    color: black;
     padding-top: 6px;
     margin-left: auto;
     font-size: 14px;
 }
 
-.bottom {
+.current {
+    color: black;
     margin-left: auto;
-    font-size: 22px;
+    font-size: 24px;
 }
