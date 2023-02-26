@@ -20,6 +20,12 @@ body {
 
 .title {
     margin: 25px;
+    font-size: 68px;
+    font-family: 'Dosis', sans-serif;
+    background: linear-gradient(lightcoral, lightblue);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .btn {
